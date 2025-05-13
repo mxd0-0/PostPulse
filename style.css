@@ -1,19 +1,19 @@
-.btn-main{
-    background-color: #F14902;    /* Strong orange */
-    color: #ffffff;               /* White text */
-    border: none;                 /* Remove border */
-    border-radius: 999px;         /* Pill shape */
-    padding: 10px 24px;           /*    Button size */
-    font-size: 16px;
-    font-weight: 500;
+.btn-main {
+    background-color: #F14902;         /* Strong orange */
+    color: white;                      /* White text */
+    border: none;
     text-decoration: none;
     transition: transform 0.2s ease;
     display: inline-block;
+    padding: 16px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 9999px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
 }
 
 .btn-main:hover {
-    transform: scale(1.05);
-
-    color: #ffffff;/* Slight grow on hover */
-    border: 3px solid #614335; /* Optional border on hover */
+    transform: scale(1.05);            /* Zoom effect */
+    color: white !important;           /* Force text to stay white */
 }
