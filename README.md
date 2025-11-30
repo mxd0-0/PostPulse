@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-Visit our website: [PostPulse Agency](https://postpulse.agency)
+Visit our website: [PostPulse Agency](https://mxd0-0.github.io/PostPulse/)
 
 ## 📋 Table of Contents
 
