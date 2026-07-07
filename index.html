@@ -1,514 +1,359 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PostPulse</title>
-    <!-- Nayzak Favicon -->
-    <link rel="icon" type="image" href="logo_without_logo.png" >
-    <!-- Nayzak External CSS -->
-    <link href="assets/plugins/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
-    <link href="assets/css/styles.min.css" rel="stylesheet" type="text/css" media="all">
-    <link href="assets/css/reset.min.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image" href="logo_without_logo.png">
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
 </head>
-<body class="bg-brand-5">
-
-<!-- Nayzak Header
-<nav class="navbar navbar-expand-lg navbar-dark position-absolute start-50 translate-middle-x top-0 index-2 py-lg-0 py-3" style="padding-top: 15px; margin-top: 15px;">
-    <div class="container-fluid">
-        <a href="#0" >
-            <picture>
-                <source  srcset="post.png">
-                <img
-                   data-src="post_without_bg.png"
-
-                   alt="Nayzak" width="200" height="200">
-            </picture>
+<body>
+<nav class="site-nav">
+    <div class="container nav-inner">
+        <a class="brand" href="#home" aria-label="PostPulse">
+            <img src="post-logo-cropped.png" alt="PostPulse">
         </a>
+        <div class="nav-links" aria-label="روابط الموقع">
+            <a href="#home">الرئيسية</a>
+            <a href="#how-it-works">كيف نعمل</a>
+            <a href="#sample-work">أعمالنا</a>
+            <a href="#faq">الأسئلة الشائعة</a>
+            <a href="#final-cta">ابدأ الآن</a>
+        </div>
+        <a class="nav-cta js-whatsapp-cta" href="#">احصل على منشورين مجاناً</a>
+        <button class="nav-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobileNav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="container mobile-nav" id="mobileNav">
+        <a href="#home">الرئيسية</a>
+        <a href="#how-it-works">كيف نعمل</a>
+        <a href="#sample-work">أعمالنا</a>
+        <a href="#faq">الأسئلة الشائعة</a>
+        <a href="#final-cta">ابدأ الآن</a>
     </div>
 </nav>
--->
 
-
-<!-- Nayzak Banner -->
-<section id="Banner" class="text-center text-white overflow-hidden position-relative index-0">
-    <img class="w-100 start-0 position-absolute top-0 index-0" src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/lazy-placeholder.gif" data-src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/background1.png" alt="Nayzak" width="1920" height="641">
-    <div class="container position-relative index-1 pb-md-2 mt-lg-5 pt-lg-4 pt-5">
-        <div class="col-lg-9 mx-auto">
-            <h1 class="mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">Welcome To <br><span style="color: #ff5733;">PostPulse</span></h1>
-
-            <p class="fs-1" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">We craft standout social media content for E-commerce, Real Estate, Food & Beverage, and Travel brands. Designed to boost engagement, grow your audience, and drive results.</p>
-
-            <div class="d-flex align-items-center justify-content-center gap-3 pt-md-3 pt-2" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
-                    <a href="#0" class="btn-main">Get started</a>
-            </div>
-
-        </div>
-        <div class="pt-md-5 pt-3 mt-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-            <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/lazy-placeholder.gif"
-                 data-src="banner.png" alt="Banner" width="1288" height="653" style="border-radius: 50px;
-opacity: 0.85;"
-
-            >
-        </div>
-    </div>
-</section>
-
-
-
-<!-- Nayzak 3 Grid Box -->
-<section class="text-white">
-    <div class="container">
-        <div class="col-lg-8 text-center mx-auto pb-3">
-            <h3 class="mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">Make PostPulse Work for Your Brand</h3>
-        </div>
-
-        <div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1 justify-content-center gy-4">
-            <div class="col">
-                <div class="card p-4 bg-brand-2 shadow text-white rounded-24 border-0" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                    <div class="pb-5 px-md-3 pt-md-3 display-5">
-                        <i class="ti ti-layout-grid"></i>
-                    </div>
-                    <div class="card-body pt-1 pt-md-4 px-0 px-md-3 pb-0 pb-md-3">
-                        <h6 class="card-title"> <a href="#0" class="stretched-link text-white"> Industry Smart Design</a></h6>
-                        <p class="card-text text-white fs-5">From E-commerce to Travel, we craft content that connects with your audience and drives action.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card p-4 bg-brand-2 shadow  text-white rounded-24 border-0" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
-                    <div class="pb-5 px-md-3 pt-md-3 display-5">
-                        <i class="ti ti-circles"></i>
-                    </div>
-                    <div class="card-body pt-1 pt-md-4 px-0 px-md-3 pb-0 pb-md-3">
-                        <h6 class="card-title">Creative by Experts</h6>
-                        <p class="card-text text-white fs-5">Our designers bring strategy and style together to tell your brand's story beautifully and effectively.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card p-4 bg-brand-2 shadow  text-white rounded-24 border-0" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                    <div class="pb-5 px-md-3 pt-md-3 display-5">
-                        <i class="ti ti-chart-arcs-3"></i>
-                    </div>
-                    <div class="card-body pt-1 pt-md-4 px-0 px-md-3 pb-0 pb-md-3">
-                        <h6 class="card-title"><a href="#0" class="text-white">You Call the Shots</a></h6>
-                        <p class="card-text text-white fs-5">Choose the vibe, set the tone, and we'll bring your vision to life. Total control, zero stress.</p>
-                    </div>
+<main>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-copy">
+                <p class="eyebrow">منشوران مجانيان قبل الدفع</p>
+                <h1>منشورات احترافية لوكالات السفر تجعل عروضك تستحق الانتباه</h1>
+                <p class="lead">PostPulse يساعد وكالات السفر على تحويل عروض الرحلات، العمرة، التأشيرات، وتذاكر الطيران إلى منشورات جذابة وواضحة تدفع العملاء للتواصل عبر الهاتف أو واتساب.</p>
+                <div class="hero-actions">
+                    <a href="#" class="btn-main js-whatsapp-cta">احصل على منشورين مجاناً</a>
+                    <a href="#how-it-works" class="btn-secondary">شاهد كيف تعمل الخدمة</a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
-
-<!-- Nayzak Testimonials, 4 Grid Box -->
-<section id="Testimonials" class="overflow-hidden text-white my-md-3">
-    <div class="container">
-        <div class="col-lg-8 mx-auto text-center pb-4">
-            <div class="pb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800"><img class="pb-1" src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/quote1-white.svg" alt="Nayzak" width="27" height="23"></div>
-            <h3 class="mb-md-2 mb-0" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">Our Customers Reviews</h3>
-        </div>
-        <div class="swiper-distory" data-distorted="768" data-swiper='{"initialSlide": 0, "slidesPerView": 1, "centeredSlides": false, "autoplay": {"delay": 2000}, "speed": 1000, "spaceBetween": 16, "pagination": {"el": ".swiper-pagination", "clickable": true}}'>
-            <div class="swiper-wrapper row row-cols-2 g-0 g-md-4 flex-md-wrap flex-nowrap justify-content-md-center">
-                <div class="swiper-slide col">
-                    <div class="card bg-brand-2 border-0 rounded-24 p-4 p-md-5 text-white" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
-                        <div class="card-body px-0 py-2 p-md-2">
-                            <p class="fw-semibold pb-md-3">"The quality of their work stands out. Clean visuals, sharp writing, and everything feels consistent and on-brand. Truly impressed."</p>
-                            <div class="d-flex align-items-center pt-md-5 pt-4">
-                                <!--
-                                <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/lazy-placeholder.gif" href="user.png" class="rounded-circle" width="60" height="60" alt="Nayzak">
-                               --> <div class="ps-3">
-                                    <h6 class="mb-0">Mohammed</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide col">
-                    <div class="card bg-brand-2 border-0 rounded-24 p-4 p-md-5 text-white" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                        <div class="card-body px-0 py-2 p-md-2">
-                            <p class="fw-semibold pb-md-3">"شفت فرق كبير في طريقة عرض خدمتي كي ولّيت نخدم معاهم. الجودة فالبوستات تحكي على روحها، كل حاجة مدروسة ومتناغمة، من الصور للكلام. المحتوى يبان احترافي من أول نظرة"</p>
-                            <div class="d-flex align-items-center pt-md-5 pt-4">
-                                <!--
-                                 <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/lazy-placeholder.gif" data-src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar23.png" class="rounded-circle" width="60" height="60" alt="Nayzak">
-                                -->  <div class="ps-3">
-                                    <h6 class="mb-0">Sohaib</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide col">
-                    <div class="card bg-brand-2 border-0 rounded-24 p-4 p-md-5 text-white" data-aos="fade-up" data-aos-delay="250" data-aos-duration="800">
-                        <div class="card-body px-0 py-2 p-md-2">
-                            <p class="fw-semibold pb-md-3">"الخدمة نظيفة بزاف، كل بوست متعوب عليه كيما نقولو بالدرجة، مافيهش حاجة معمولة كيما هاك. الجودة تاع الصور والنصوص روعة."</p>
-                            <div class="d-flex align-items-center pt-md-5 pt-4">
-                                <!--
-                                <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/lazy-placeholder.gif" data-src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar24.png" class="rounded-circle" width="60" height="60" alt="Nayzak">
-                                --> <div class="ps-3">
-                                    <h6 class="mb-0">Karim.B</h6>
-                                   <!-- <span class="fs-5">Travel Agency</span>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide col">
-                    <div class="card bg-brand-2 border-0 rounded-24 p-4 p-md-5 text-white" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-                        <div class="card-body px-0 py-2 p-md-2">
-                            <p class="text-white fw-semibold pb-md-3">"صراحة المحتوى تاعهم يبان من اللّول بلي محترف. التصاميم نظاف، والألوان ديما على ستيل واحد، يعطي ثقة للناس"</p>
-                            <div class="d-flex align-items-center pt-md-5 pt-4">
-                                <!--
-                                <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/lazy-placeholder.gif" data-src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar25.png" class="rounded-circle" width="60" height="60" alt="Nayzak">
-                                -->   <div class="ps-3">
-                                    <h6 class="mb-0">Lynda</h6>
-                                   <!-- <span class="fs-5">Cosmetics Boutique</span> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section id="banner" class="section banner-section">
+        <div class="container">
+            <div class="section-heading center">
+                <h2>جرّب الجودة قبل أن تدفع</h2>
+                <p>نصمم لك منشورين باستخدام شعار وكالتك ومعلوماتك الحقيقية، حتى ترى كيف يمكن أن تظهر عروضك بشكل أكثر احترافية.</p>
             </div>
-            <div class="swiper-pagination d-block d-md-none mb-4 py-2"></div>
+            <img class="blue-banner" src="banner.png" alt="PostPulse" width="1288" height="653">
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Nayzak Features List -->
-<section id="Features">
-    <div class="container text-white pt-lg-3">
-        <div class="col-lg-8 mx-auto">
-            <div class="text-md-center pb-4">
-                <h3 class="mb-lg-1 mb-3 pb-lg-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">Driven by a great community of pro devlopers</h3>
-            </div>
-            <div class="row row-cols-md-2 row-cols-1 gy-md-5 gy-4">
-                <div class="col">
-                    <div class="card bg-transparent border-0 text-white mb-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                        <div class="card-body p-0">
-                            <div class="d-flex align-items-center pb-3">
-                <span class="box-icon box-icon-xsm shadow-xsm bg-blue-dark text-dark">
-                  <i class="ti ti-dna"></i>
-                </span>
-                                <div class="ps-3">
-                                    <h6 class="mb-0">Designer-Led</h6>
-                                </div>
-                            </div>
-                            <p class="mb-0 fs-5">Every post is crafted by skilled creatives who know what grabs attention.</p>
-                        </div>
-                    </div>
+    <section id="no-risk" class="section">
+        <div class="container">
+            <div class="risk-box">
+                <div>
+                    <p class="eyebrow">بدون التزام</p>
+                    <h2>بدون مخاطرة. بدون عقد.</h2>
+                    <p>أول منشورين مجانيان بالكامل. إذا أعجبك العمل، يمكننا مناقشة باقة شهرية تناسب وكالتك. إذا لم يناسبك، تحتفظ بالمنشورات ولا تدفع أي شيء.</p>
                 </div>
-                <div class="col">
-                    <div class="card bg-transparent border-0 text-white mb-3" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
-                        <div class="card-body p-0">
-                            <div class="d-flex align-items-center pb-3">
-                <span class="box-icon box-icon-xsm shadow-xsm bg-green-light text-dark">
-                  <i class="ti ti-git-fork"></i>
-                </span>
-                                <div class="ps-3">
-                                    <h6 class="mb-0">Content QA</h6>
-                                </div>
-                            </div>
-                            <p class="mb-0 fs-5">We double-check everything. So your brand always looks its best.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card bg-transparent border-0 text-white mb-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                        <div class="card-body p-0">
-                            <div class="d-flex align-items-center pb-3">
-                <span class="box-icon box-icon-xsm shadow-xsm bg-warning-30 text-dark">
-                  <i class="ti ti-scan"></i>
-                </span>
-                                <div class="ps-3">
-                                    <h6 class="mb-0">Always Evolving</h6>
-                                </div>
-                            </div>
-                            <p class="mb-0 fs-5">We grow with the trends—so your content stays fresh, relevant, and ahead.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card bg-transparent border-0 text-white mb-3" data-aos="fade-up" data-aos-delay="250" data-aos-duration="800">
-                        <div class="card-body p-0">
-                            <div class="d-flex align-items-center pb-3">
-                <span class="box-icon box-icon-xsm shadow-xsm bg-pink-light text-dark">
-                  <i class="ti ti-brand-open-source"></i>
-                </span>
-                                <div class="ps-3">
-                                    <h6 class="mb-0">Quick Turnaround</h6>
-                                </div>
-                            </div>
-                            <p class="mb-0 fs-5">Get high-quality content, fast. No delays—just results</p>
-                        </div>
-                    </div>
-                </div>
+                <a href="#" class="btn-main js-whatsapp-cta">أريد منشورين مجاناً</a>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Nayzak Simple Pricing
-<section class="text-white">
-    <div class="container py-lg-3">
-        <div class="col-lg-8 text-center mx-auto pb-4">
-            <div class="pb-2" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800"><span class="badge badge-lg border-white text-white rounded-pill mb-md-1">Simple Pricing</span></div>
-            <h3 class="mb-lg-1 mb-3 pb-lg-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">Simple and affordable pricing plans for everyone</h3>
-        </div>
-        <div class="row g-4">
-            <div class="col-md-6">
-                <div class="card bg-brand-2 h-100 border-0 rounded-24 text-white p-4 p-lg-5" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
-                    <div class="pt-3 pt-lg-2 px-sm-2 pb-4 pb-lg-5">
-                        <div class="d-flex pb-2 pb-md-4 mb-1 mb-md-0 align-items-start justify-content-between">
-                            <div>
-                                <h5>Starter</h5>
-                                <span class="fs-4 text-black-40">All you need to get started</span>
-                            </div>
-                        </div>
-                        <h2 class="mb-0">$26</h2>
-                    </div>
-                    <div class="card-body p-0 px-sm-2 pb-sm-2">
-                        <ul class="fs-2 list-unstyled mb-5 pb-2 pb-md-4">
-                            <li class="d-flex pb-2 mb-1"><i class="ti ti-check text-teal-50 fs-1 mt-md-1 me-2"></i> 2 seats</li>
-                            <li class="d-flex pb-2 mb-1"><i class="ti ti-check text-teal-50 fs-1 mt-md-1 me-2"></i> 5GB storage</li>
-                            <li class="d-flex pb-2 mb-1"><i class="ti ti-check text-teal-50 fs-1 mt-md-1 me-2"></i> Template library</li>
-                            <li class="d-flex pb-2 mb-1"><i class="ti ti-check text-teal-50 fs-1 mt-md-1 me-2"></i> Free hosting</li>
-                            <li class="d-flex"><i class="ti ti-check text-teal-50 fs-1 mt-md-1 me-2"></i> Email support</li>
-                        </ul>
-                        <a href="#0" class="btn btn-purple btn-lg mt-2 w-100 hvr-grow">Get started</a>
-                    </div>
-                </div>
+    <section id="helps" class="section">
+        <div class="container">
+            <div class="section-heading center">
+                <h2>كيف يساعد PostPulse وكالات السفر؟</h2>
             </div>
-            <div class="col-md-6">
-                <div class="card h-100 bg-gradient-six border-0 rounded-24 text-white p-4 p-lg-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                    <div class="pt-3 pt-lg-2 px-sm-2 pb-4 pb-lg-5">
-                        <div class="d-flex pb-2 pb-md-4 mb-1 mb-md-0 align-items-start justify-content-between">
-                            <div>
-                                <h5>Professional</h5>
-                                <span class="fs-4 text-black-40">All you need to get started</span>
-                            </div>
-                            <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/lazy-placeholder.gif" data-src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/icon-wish-white.svg" class="price-icon" width="48" height="48" alt="Nayzak">
-                        </div>
-                        <h2 class="mb-0">$88</h2>
-                    </div>
-                    <div class="card-body p-0 px-sm-2 pb-sm-2">
-                        <ul class="fs-2 list-unstyled mb-5 pb-2 pb-md-4">
-                            <li class="d-flex pb-2 mb-1"><i class="ti ti-check fs-1 mt-md-1 me-2"></i> 10 seats</li>
-                            <li class="d-flex pb-2 mb-1"><i class="ti ti-check fs-1 mt-md-1 me-2"></i> 25GB storage</li>
-                            <li class="d-flex pb-2 mb-1"><i class="ti ti-check fs-1 mt-md-1 me-2"></i> Template library</li>
-                            <li class="d-flex pb-2 mb-1"><i class="ti ti-check fs-1 mt-md-1 me-2"></i> Free hosting</li>
-                            <li class="d-flex"><i class="ti ti-check fs-1 mt-md-1 me-2"></i> Premium support</li>
-                        </ul>
-                        <a href="#0" class="btn btn-dark btn-lg mt-2 w-100 hvr-grow">Get started</a>
-                    </div>
-                </div>
+            <div class="card-grid three">
+                <article class="service-card">
+                    <h3>تصميم مخصص للسفر</h3>
+                    <p>نصمم منشورات مخصصة لوكالات السفر، رحلات العمرة، الحج، التأشيرات، تذاكر الطيران، الفنادق، والعروض السياحية.</p>
+                </article>
+                <article class="service-card">
+                    <h3>عرض واضح وسهل الفهم</h3>
+                    <p>نرتب المعلومات المهمة مثل الوجهة، السعر، التاريخ، المزايا، وطريقة التواصل حتى يفهم العميل العرض بسرعة.</p>
+                </article>
+                <article class="service-card">
+                    <h3>دعوة واضحة للتواصل</h3>
+                    <p>كل منشور يحتوي على رقم الهاتف أو واتساب بشكل واضح حتى يعرف العميل الخطوة التالية مباشرة.</p>
+                </article>
             </div>
         </div>
-        <div class="col-lg-5 text-center mx-auto pt-4 pt-lg-5">
-            <div class="d-flex align-items-center justify-content-center gap-4 pb-3" data-aos="fade-up" data-aos-delay="250" data-aos-duration="800">
-                <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/lazy-placeholder.gif" data-src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/logo-paypal-white.png" width="59" height="16" alt="Nayzak">
-                <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/lazy-placeholder.gif" data-src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/logo-afterpay-white.png" width="98" height="19" alt="Nayzak">
-                <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/lazy-placeholder.gif" data-src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/logo-visa-white.png" width="44" height="15" alt="Nayzak">
-                <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/lazy-placeholder.gif" data-src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/logo-mastercard-white.png" width="29" height="17" alt="Nayzak">
+    </section>
+
+    <section id="how-it-works" class="section">
+        <div class="container">
+            <div class="section-heading center">
+                <h2>كيف تعمل الخدمة؟</h2>
             </div>
-            <p class="fs-5 text-black-50 mb-0" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia deserunt mollit the anim id est ex ea comm.</p>
-        </div>
-    </div>
-</section>
--->
-
-
-<!-- Nayzak Frequently Questions -->
-<section id="Frequently Questions" class="text-white">
-    <div class="container">
-        <div class="col-lg-8 mx-auto">
-            <h4 class="h5 pb-md-4 pb-2" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">Frequently asked questions</h4>
-            <div class="accordion dark text-white" id="nayzakThree" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                <!-- FAQ: What is PostPulse? -->
-                <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header" id="headingOneDark">
-                        <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneDark" aria-expanded="false" aria-controls="collapseOneDark">
-                            What is PostPulse?
-                        </button>
-                    </h2>
-                    <div id="collapseOneDark" class="accordion-collapse collapse" aria-labelledby="headingOneDark" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            <p class="fs-5">PostPulse is a creative agency that empowers brands through engaging social media content. We specialize in helping businesses in E-commerce, Travel, Real Estate, and Food & Beverage stand out and grow online.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ: How does PostPulse work? -->
-                <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header" id="headingTwoDark">
-                        <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoDark" aria-expanded="false" aria-controls="collapseTwoDark">
-                            How does PostPulse work?
-                        </button>
-                    </h2>
-                    <div id="collapseTwoDark" class="accordion-collapse collapse" aria-labelledby="headingTwoDark" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            <p class="fs-5">We start by understanding your brand, goals, and audience. Then we design social content — posts, carousels, reels — aligned with your strategy to increase visibility and attract more clients.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ: Do you offer free samples? -->
-                <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header" id="headingThreeDark">
-                        <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeDark" aria-expanded="false" aria-controls="collapseThreeDark">
-                            Do you offer free samples?
-                        </button>
-                    </h2>
-                    <div id="collapseThreeDark" class="accordion-collapse collapse" aria-labelledby="headingThreeDark" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            <p class="fs-5">Yes! We offer 2 free social media posts so you can experience our quality before committing. Just reach out to us and we’ll handle the rest.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ: What industries do you serve? -->
-                <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header" id="headingFourDark">
-                        <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourDark" aria-expanded="false" aria-controls="collapseFourDark">
-                            What industries do you serve?
-                        </button>
-                    </h2>
-                    <div id="collapseFourDark" class="accordion-collapse collapse" aria-labelledby="headingFourDark" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            <p class="fs-5">We specialize in content for Travel Agencies, Real Estate, E-commerce brands, and the Food & Beverage industry. But we’re flexible and work with businesses across all sectors.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ: Can you help travel agencies? -->
-                <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header" id="headingFiveDark">
-                        <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveDark" aria-expanded="false" aria-controls="collapseFiveDark">
-                            Can you help travel agencies?
-                        </button>
-                    </h2>
-                    <div id="collapseFiveDark" class="accordion-collapse collapse" aria-labelledby="headingFiveDark" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            <p class="fs-5">Definitely! We create scroll-stopping content that builds trust and encourages travelers to choose your agency. Our visuals and storytelling are designed to drive real bookings.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ: What platforms do you support? -->
-                <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header" id="headingSixDark">
-                        <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixDark" aria-expanded="false" aria-controls="collapseSixDark">
-                            What platforms do you support?
-                        </button>
-                    </h2>
-                    <div id="collapseSixDark" class="accordion-collapse collapse" aria-labelledby="headingSixDark" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            <p class="fs-5">We craft content for Instagram, Facebook, TikTok, LinkedIn, and Pinterest. Our designs follow platform-specific trends to maximize your reach and engagement.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ: Do I need a contract? -->
-                <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header" id="headingSevenDark">
-                        <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSevenDark" aria-expanded="false" aria-controls="collapseSevenDark">
-                            Do I need to sign a contract?
-                        </button>
-                    </h2>
-                    <div id="collapseSevenDark" class="accordion-collapse collapse" aria-labelledby="headingSevenDark" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            <p class="fs-5">No contract required. You can start with a single project, a monthly plan, or go custom. We’re flexible and focus on delivering value first.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ: How do I get started? -->
-                <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header" id="headingEightDark">
-                        <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEightDark" aria-expanded="false" aria-controls="collapseEightDark">
-                            How do I get started?
-                        </button>
-                    </h2>
-                    <div id="collapseEightDark" class="accordion-collapse collapse" aria-labelledby="headingEightDark" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            <p class="fs-5">Just send us a message or fill out our contact form. We’ll reply quickly, offer your free samples, and guide you through your next best steps to grow online.</p>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="steps-grid">
+                <article class="step-card">
+                    <span>1</span>
+                    <h3>أرسل معلومات وكالتك</h3>
+                    <p>أرسل لنا الشعار، ألوان البراند إن وجدت، رقم الهاتف، واتساب، وتفاصيل العرض الذي تريد الترويج له.</p>
+                </article>
+                <article class="step-card">
+                    <span>2</span>
+                    <h3>نصمم لك منشورين مجاناً</h3>
+                    <p>نجهز منشورين احترافيين مناسبين لهوية وكالتك وخدماتك.</p>
+                </article>
+                <article class="step-card">
+                    <span>3</span>
+                    <h3>تشاهد الجودة بنفسك</h3>
+                    <p>نرسل لك التصاميم، وأنت تقرر إذا كان الأسلوب مناسباً لك أم لا.</p>
+                </article>
+                <article class="step-card">
+                    <span>4</span>
+                    <h3>نبدأ باقة شهرية إذا أعجبك العمل</h3>
+                    <p>إذا أردت محتوى مستمراً لوكالتك، نختار باقة شهرية تناسب عدد عروضك واحتياجك.</p>
+                </article>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Nayzak Footer -->
-<footer class="bg-black text-white py-5">
-    <div class="container text-center">
-        <!-- Logo -->
-        <div class="mb-4">
-            <img src=""
-                 data-src="post.png"
-                 alt="Nayzak" width="250" height="250">
-
+    <section id="free" class="section">
+        <div class="container split-section">
+            <div>
+                <p class="eyebrow">التجربة المجانية</p>
+                <h2>ماذا تحصل عليه مجاناً؟</h2>
+                <p>عند طلب التجربة المجانية، ستحصل على:</p>
+                <a href="#" class="btn-main js-whatsapp-cta">اطلب تجربتك المجانية الآن</a>
+            </div>
+            <ul class="check-list">
+                <li>منشورين مخصصين لوكالتك</li>
+                <li>استخدام شعارك وألوانك</li>
+                <li>نص عربي أو عربي/إنجليزي</li>
+                <li>تصميم مناسب لفيسبوك وإنستغرام</li>
+                <li>رقم الهاتف أو واتساب داخل التصميم</li>
+                <li>دعوة واضحة للتواصل</li>
+                <li>إمكانية تعديل بسيط إذا كان ضرورياً</li>
+            </ul>
         </div>
+    </section>
 
-        <!-- Navigation Links -->
-        <ul class="nav justify-content-center gap-4 mb-4 flex-wrap">
-            <li class="nav-item"><a href="#Banner" class="nav-link footer-hover text-white-50 px-2">About</a></li>
-            <li class="nav-item"><a href="#Testimonials" class="nav-link footer-hover text-white-50 px-2">Testimonials</a></li>
-            <li class="nav-item"><a href="#Features" class="nav-link footer-hover text-white-50 px-2">Features</a></li>
-            <li class="nav-item"><a href="#Frequently Questions" class="nav-link footer-hover text-white-50 px-2">FAQ</a></li>
+    <section id="sample-work" class="section">
+        <div class="container">
+            <div class="section-heading center">
+                <h2>أعمال تجريبية</h2>
+                <p>لا نستخدم شهادات وهمية. حتى نحصل على تقييمات حقيقية من العملاء، نعرض هنا نماذج تصميم توضح جودة العمل والأسلوب الذي يمكن أن نقدمه لوكالتك.</p>
+            </div>
+            <div class="sample-grid">
+                <article class="sample-card">
+                    <span class="sample-mark">01</span>
+                    <h3>نموذج عرض عمرة</h3>
+                </article>
+                <article class="sample-card">
+                    <span class="sample-mark">02</span>
+                    <h3>نموذج عرض تأشيرة</h3>
+                </article>
+                <article class="sample-card">
+                    <span class="sample-mark">03</span>
+                    <h3>نموذج عرض رحلة سياحية</h3>
+                </article>
+                <article class="sample-card">
+                    <span class="sample-mark">04</span>
+                    <h3>نموذج عرض تذاكر طيران</h3>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="section">
+        <div class="container">
+            <div class="section-heading center">
+                <h2>الباقات الشهرية</h2>
+                <p>بعد تجربة المنشورين المجانيين، يمكنك اختيار باقة شهرية تناسب احتياج وكالتك.</p>
+            </div>
+            <div class="card-grid three">
+                <article class="package-card">
+                    <h3>باقة البداية</h3>
+                    <p>مناسبة للوكالات التي تريد حضوراً بسيطاً ومنظماً.</p>
+                    <ul>
+                        <li>6 منشورات شهرياً</li>
+                        <li>تصاميم متوافقة مع البراند</li>
+                        <li>نصوص قصيرة للمنشورات</li>
+                        <li>دعوة للتواصل عبر واتساب</li>
+                    </ul>
+                </article>
+                <article class="package-card featured">
+                    <h3>باقة النمو</h3>
+                    <p>مناسبة للوكالات التي تنشر عروضاً بشكل مستمر.</p>
+                    <ul>
+                        <li>12 منشوراً شهرياً</li>
+                        <li>نسخ للستوري</li>
+                        <li>نصوص للمنشورات</li>
+                        <li>تصاميم عروض السفر والعمرة والتأشيرات</li>
+                        <li>تنظيم أفضل للمحتوى الشهري</li>
+                    </ul>
+                </article>
+                <article class="package-card">
+                    <h3>باقة الاحتراف</h3>
+                    <p>مناسبة للوكالات التي تريد مظهراً احترافياً مستمراً.</p>
+                    <ul>
+                        <li>20 منشوراً شهرياً</li>
+                        <li>نسخ للستوري</li>
+                        <li>تصاميم جاهزة للإعلانات</li>
+                        <li>تخطيط محتوى شهري</li>
+                        <li>تحسين العناوين والدعوات للتواصل</li>
+                    </ul>
+                </article>
+            </div>
+            <div class="center packages-cta">
+                <a href="#" class="btn-main js-whatsapp-cta">ابدأ بمنشورين مجاناً قبل اختيار أي باقة</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="why" class="section">
+        <div class="container">
+            <div class="section-heading center">
+                <h2>لماذا تختار وكالتك PostPulse؟</h2>
+            </div>
+            <div class="card-grid two">
+                <article class="feature-card">
+                    <h3>احترام هوية الوكالة</h3>
+                    <p>نستخدم شعارك، ألوانك، وأسلوبك حتى لا تبدو المنشورات كقوالب عشوائية.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>سرعة في التنفيذ</h3>
+                    <p>أرسل التفاصيل، ونحن نجهز لك تصاميم نظيفة واحترافية بسرعة.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>منشورات جاهزة للإعلانات</h3>
+                    <p>نصمم منشورات تصلح للنشر على فيسبوك، إنستغرام، الستوري، وحتى كتصاميم إعلانية بسيطة.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>تركيز على واتساب</h3>
+                    <p>نصمم المنشورات بطريقة تجعل التواصل مع الوكالة سهلاً وواضحاً.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="section">
+        <div class="container">
+            <div class="section-heading center">
+                <h2>الأسئلة الشائعة</h2>
+            </div>
+            <div class="faq-list">
+                <details>
+                    <summary>ما هو PostPulse؟</summary>
+                    <p>PostPulse هي خدمة تصميم محتوى لوكالات السفر. نصمم منشورات احترافية لعروض الرحلات، العمرة، الحج، التأشيرات، تذاكر الطيران، الفنادق، والخدمات السياحية.</p>
+                </details>
+                <details>
+                    <summary>هل المنشوران المجانيان حقيقيان؟</summary>
+                    <p>نعم. نصمم لك منشورين مجاناً حتى ترى جودة العمل قبل أن تدفع أي شيء.</p>
+                </details>
+                <details>
+                    <summary>ماذا أحتاج أن أرسل لكم؟</summary>
+                    <p>نحتاج شعار الوكالة، تفاصيل العرض، رقم الهاتف أو واتساب، وأي صور تريد استخدامها في التصميم.</p>
+                </details>
+                <details>
+                    <summary>هل أحتاج إلى عقد؟</summary>
+                    <p>لا. التجربة الأولى مجانية. إذا أعجبك العمل، يمكننا بعدها مناقشة باقة شهرية.</p>
+                </details>
+                <details>
+                    <summary>هل تصممون بالعربية؟</summary>
+                    <p>نعم. يمكننا التصميم بالعربية، الإنجليزية، أو مزيج بينهما حسب جمهور وكالتك.</p>
+                </details>
+                <details>
+                    <summary>هل تديرون الإعلانات؟</summary>
+                    <p>حالياً نركز على تصميم منشورات جاهزة للنشر والإعلانات البسيطة. إدارة الإعلانات يمكن إضافتها لاحقاً.</p>
+                </details>
+                <details>
+                    <summary>هل تضمنون الحجوزات؟</summary>
+                    <p>لا نضمن حجوزات مباشرة، لأن ذلك يعتمد على العرض، السعر، السوق، والمتابعة مع العملاء. نحن نساعدك على جعل العرض أوضح وأكثر احترافية وجاهزاً لجذب الانتباه.</p>
+                </details>
+                <details>
+                    <summary>كيف أبدأ؟</summary>
+                    <p>اضغط على الزر، أرسل شعار الوكالة وتفاصيل عرض واحد، وسنجهز لك منشورين مجانيين.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section id="final-cta" class="section final-cta">
+        <div class="container center">
+            <h2>هل تريد تجربة PostPulse مجاناً؟</h2>
+            <p>أرسل لنا شعار وكالتك وعرض سفر واحد، وسنصمم لك منشورين احترافيين مجاناً حتى ترى كيف يمكن أن تظهر عروضك بشكل أفضل.</p>
+            <a href="#" class="btn-main js-whatsapp-cta">احصل على منشورين مجاناً</a>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <div>
+            <h2>PostPulse</h2>
+            <p>منشورات احترافية لوكالات السفر، العمرة، التأشيرات، والعروض السياحية.</p>
+        </div>
+        <ul class="footer-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#how-it-works">كيف نعمل</a></li>
+            <li><a href="#sample-work">أعمالنا</a></li>
+            <li><a href="#faq">الأسئلة الشائعة</a></li>
+            <li><a href="#final-cta">ابدأ الآن</a></li>
         </ul>
-
-        <!-- Social Icons -->
-        <div class="mb-4">
-           <!-- <a href="#" target="_blank" class="text-white-50 me-3 fs-4"><i class="ti ti-brand-facebook"></i></a> -->
-            <!-- Social Icons   <a href="#" class="text-white-50 me-3 fs-4"><i class="ti ti-brand-twitter"></i></a>
-            <a href="#" class="text-white-50 me-3 fs-4"><i class="ti ti-brand-youtube"></i></a>-->
-            <a href="https://www.instagram.com/postpulse.agency/" target="_blank" class="text-white-50 fs-4"><i class="ti ti-brand-instagram"></i></a>
-        </div>
-
-        <!-- Copyright -->
-        <p class="text-white-50 small mb-0">&copy; <script>document.write(new Date().getFullYear())</script> PostPulse</p>
+        <p class="copyright">© 2026 PostPulse. جميع الحقوق محفوظة.</p>
     </div>
 </footer>
 
-<!-- Hover Style -->
-<style>
-    .footer-hover {
-        position: relative;
-        display: inline-block;
-        transition: color 0.3s ease;
-        color: rgba(255, 255, 255, 0.6);
-    }
+<script>
+    const WHATSAPP_NUMBER = "YOUR_NUMBER_HERE";
+    const WHATSAPP_MESSAGE = `السلام عليكم، أريد تجربة منشورين مجانيين لوكالة السفر الخاصة بي.
 
-    .footer-hover::after {
-        content: '';
-        position: absolute;
-        width: 0%;
-        height: 1px;
-        bottom: 0;
-        left: 0;
-        background-color: white;
-        transition: width 0.3s ease;
-    }
+اسم الوكالة:
+نوع العرض:
+رقم الهاتف:
+هل يوجد شعار؟ نعم / لا`;
+    const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+    document.querySelectorAll(".js-whatsapp-cta").forEach((link) => {
+        link.setAttribute("href", whatsappUrl);
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener");
+    });
 
-    .footer-hover:hover {
-        color: #ffffff !important;
-    }
+    const nav = document.querySelector(".site-nav");
+    const toggle = document.querySelector(".nav-toggle");
+    const mobileNav = document.querySelector(".mobile-nav");
 
-    .footer-hover:hover::after {
-        width: 100%;
-    }
-</style>
+    const updateNavState = () => {
+        nav.classList.toggle("is-scrolled", window.scrollY > 12);
+    };
 
-<script src="assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
-<script src="assets/plugins/vanilla-lazyload/lazyload.min.js"></script>
-<script src="assets/plugins/swiper/swiper-bundle.min.js"></script>
-<script src="assets/plugins/aos/aos.min.js"></script>
-<script src="assets/js/custom.js"></script>
+    updateNavState();
+    window.addEventListener("scroll", updateNavState, { passive: true });
+
+    toggle.addEventListener("click", () => {
+        const isOpen = nav.classList.toggle("is-open");
+        toggle.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    mobileNav.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+            nav.classList.remove("is-open");
+            toggle.setAttribute("aria-expanded", "false");
+        });
+    });
+</script>
 </body>
 </html>
