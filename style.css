@@ -395,6 +395,18 @@ p {
     content: "";
 }
 
+.service-travel::before {
+    content: "✈";
+}
+
+.service-clear::before {
+    content: "✓";
+}
+
+.service-whatsapp::before {
+    content: "☎";
+}
+
 .step-card span {
     display: inline-flex;
     align-items: center;
